@@ -128,9 +128,6 @@
 <style>
 	nav {
 		display: flex;
-		/* position: fixed;
-	  top: 20px;
-	  right: 20px; */
 		margin-top: 1rem;
 		margin-bottom: 0.5rem;
 	}
@@ -179,6 +176,7 @@
 		transition: transform 0.2s ease-out;
 		transform-style: preserve-3d;
 		will-change: transform;
+		font-family: Roboto, 'Noto Sans Thai Variable', sans-serif;
 	}
 
 	.glass {
