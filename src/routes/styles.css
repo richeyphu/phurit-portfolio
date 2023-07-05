@@ -16,7 +16,7 @@ body {
 
 body {
 	margin: 0;
-	background-color: #0d324d;
+	background-color: #0A2437;
 	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 	color: var(--color-text-light);
 	font-family: var(--font-body);
