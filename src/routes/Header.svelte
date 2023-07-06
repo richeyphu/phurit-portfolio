@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { page } from '$app/stores';
 	import logo from '$lib/images/svelte-logo.svg';
 	import github from '$lib/images/github.svg';
@@ -20,9 +20,10 @@
 
 <style>
 	header {
-		position: absolute;
+		position: fixed;
 		width: 100%;
 		height: 100px;
 		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent);
+		z-index: 100;
 	}
 </style>
