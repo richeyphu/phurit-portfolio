@@ -33,7 +33,21 @@
 		}
 
 		card.addEventListener('animationend', () => {
-			card.classList.remove('animate__animated', 'animate__zoomInUp');
+			card.classList.remove('animate__animated', 'animate__zoomInUp', 'animate__jackInTheBox');
+		});
+
+		const destroyWindowBtn = document.querySelector('.window-button.b-red') as HTMLDivElement;
+		destroyWindowBtn.addEventListener('click', () => {
+			// Close window animation easter egg
+			card.classList.add('animate__animated', 'animate__hinge');
+			setTimeout(() => {
+				card.hidden = true;
+			}, 1900);
+			setTimeout(() => {
+				card.hidden = false;
+				card.classList.remove('animate__hinge');
+				card.classList.add('animate__jackInTheBox');
+			}, 10000);
 		});
 	});
 </script>
