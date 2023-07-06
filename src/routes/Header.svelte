@@ -14,19 +14,19 @@
 			<a
 				href="/"
 				class={$page.url.pathname === '/'
-					? 'bg-gray-900 bg-opacity-40 backdrop-blur-md px-2 rounded-md'
+					? 'bg-white/10 backdrop-blur-md shadow px-2 rounded-md text-gray-100'
 					: ''}>/home</a
 			>
 			<a
 				href="/projects"
 				class={$page.url.pathname === '/projects'
-					? 'bg-gray-900 bg-opacity-40 backdrop-blur-md px-2 rounded-md'
+					? 'bg-white/10 backdrop-blur-md shadow px-2 rounded-md text-gray-100'
 					: ''}>/projects</a
 			>
 			<a
 				href="/about"
 				class={$page.url.pathname === '/about'
-					? 'bg-gray-900 bg-opacity-40 backdrop-blur-md px-2 rounded-md'
+					? 'bg-white/10 backdrop-blur-md shadow px-2 rounded-md text-gray-100'
 					: ''}>/about</a
 			>
 		</nav>
@@ -37,8 +37,10 @@
 	header {
 		position: fixed;
 		width: 100%;
-		height: 65px;
-		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent);
+		height: 80px;
 		z-index: 100;
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent);
+		backdrop-filter: blur(100px);
+		mask: linear-gradient(to bottom, black 60%, transparent);
 	}
 </style>
