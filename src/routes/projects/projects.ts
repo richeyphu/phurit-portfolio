@@ -26,7 +26,7 @@ export const projects: Project[] = [
 		link: 'https://github.com/richeyphu/piery'
 	},
 	{
-		title: 'GetMotivated',
+		title: 'Get Motivated',
 		description: 'Stop hornie, be motivated. Chrome extension that will save you from 😭',
 		link: 'https://github.com/richeyphu/GetMotivated'
 	}
