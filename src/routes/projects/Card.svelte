@@ -1,6 +1,4 @@
 <script lang="ts">
-    import 'animate.css';
-
 	export let title: string = 'Lorem ipsum dolor sit amet';
 	export let description: string = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
 	export let link: string = '#';

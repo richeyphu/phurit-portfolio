@@ -1,4 +1,5 @@
 @import '@fontsource-variable/noto-sans-thai';
+@import 'animate.css';
 
 :root {
 	--font-body: 'Noto Sans Thai Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,

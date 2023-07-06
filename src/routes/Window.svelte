@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import 'animate.css';
 	import grtn_ring from '../lib/images/ring-solid.svg';
 
 	onMount(() => {
