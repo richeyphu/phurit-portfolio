@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Projects | phurit.de</title>
+	<title>phurit.de / projects</title>
 	<meta name="description" content="My projects" />
 </svelte:head>
 

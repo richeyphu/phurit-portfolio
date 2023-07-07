@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>About | phurit.de</title>
+	<title>phurit.de / about</title>
 	<meta name="description" content="About me" />
 </svelte:head>
 
