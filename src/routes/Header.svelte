@@ -40,7 +40,7 @@
 		height: 80px;
 		z-index: 100;
 		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent);
-		backdrop-filter: blur(100px);
+		backdrop-filter: blur(12px);
 		mask: linear-gradient(to bottom, black 60%, transparent);
 	}
 </style>
