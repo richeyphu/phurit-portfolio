@@ -53,7 +53,7 @@
 
 <!-- Main Window starts -->
 <div class="card glass animate__animated animate__zoomInUp">
-	<div class="window-bar">
+	<div class="window-bar [&>*:hover]:opacity-80 [&>*]:transition-all">
 		<div class="window-button b-red" />
 		<div class="window-button b-yellow" />
 		<div class="window-button b-green" />
