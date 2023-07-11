@@ -23,7 +23,7 @@
 
 <section class="flex h-screen">
 	<div class="m-auto animate__animated animate__fadeIn text-center">
-		<h1 class="font-light text-4xl drop-shadow mb-3">Hi there 👋</h1>
+		<h1 class="font-light text-2xl md:text-4xl drop-shadow mb-3">Hi, I'm Phurit 👋</h1>
 		<h1 class="font-light text-2xl md:text-4xl drop-shadow">
 			<Typewriter
 				mode="loopOnce"
