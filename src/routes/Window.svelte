@@ -185,12 +185,8 @@
 	.window-bar {
 		display: flex;
 		background-color: rgba(33, 35, 45, 0.4);
-		padding-left: 0.75rem;
-		padding-right: 0.75rem;
-		padding-top: 0.5rem;
-		padding-bottom: 0.5rem;
-		border-top-left-radius: 0.5rem;
-		border-top-right-radius: 0.5rem;
+		padding: 0.5rem 0.75rem;
+		border-radius: 0.5rem 0.5rem 0 0;
 	}
 	.window-bar > :not([hidden]) ~ :not([hidden]) {
 		margin-left: 0.5rem;
@@ -201,12 +197,8 @@
 		align-items: center;
 		justify-content: center;
 		/* background-color: rgba(40, 42, 54, 1); */
-		padding-left: 5rem;
-		padding-right: 5rem;
-		padding-top: 2rem;
-		padding-bottom: 2rem;
-		border-bottom-left-radius: 0.5rem;
-		border-bottom-right-radius: 0.5rem;
+		padding: 2rem 4.9rem;
+		border-radius: 0 0 0.5rem 0.5rem;
 	}
 	.window-button {
 		width: 0.75rem;
