@@ -11,8 +11,8 @@
 		'Writer',
 		'Learner',
 		'Human',
-		'.......',
-		'who I am'
+		'........',
+		'who I am...'
 	];
 </script>
 
@@ -22,8 +22,9 @@
 </svelte:head>
 
 <section class="flex h-screen">
-	<div class="m-auto animate__animated animate__fadeIn">
-		<h1 class="font-light text-4xl drop-shadow">
+	<div class="m-auto animate__animated animate__fadeIn text-center">
+		<h1 class="font-light text-4xl drop-shadow mb-3">Hi there 👋</h1>
+		<h1 class="font-light text-2xl md:text-4xl drop-shadow">
 			<Typewriter
 				mode="loopOnce"
 				wordInterval={1500}
@@ -33,7 +34,7 @@
 				<span data-static>I am</span>
 				{#each words as word, i}
 					{#if i >= words.length - 2}
-						<span>{`${word}.`}</span>
+						<span>{`${word}`}</span>
 					{:else}
 						<span>{`a ${word}`}</span>
 					{/if}
