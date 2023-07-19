@@ -74,5 +74,10 @@ export const projects: Project[] = [
 		title: 'dechroma.js',
 		description: 'Chroma keying for canvas-manipulated video',
 		link: 'https://github.com/richeyphu/dechroma.js'
+	},
+	{
+		title: 'KV Counter',
+		description: 'Simple numeric counters API, using Cloudflare Workers and KV storage',
+		link: 'https://github.com/richeyphu/kv-counter'
 	}
 ];
