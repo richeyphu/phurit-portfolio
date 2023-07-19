@@ -67,7 +67,7 @@ export const projects: Project[] = [
 	},
 	{
 		title: 'Get Motivated',
-		description: 'Stop hornie, be motivated. Chrome extension that will save you from 😭',
+		description: 'Stop hornie, be motivated: Chrome extension that will save you from 😭',
 		link: 'https://github.com/richeyphu/GetMotivated'
 	},
 	{
