@@ -14,19 +14,19 @@
 			<a
 				href="/"
 				class={$page.url.pathname === '/'
-					? 'bg-white/10 backdrop-blur-md shadow px-2 rounded-md text-gray-100'
+					? 'bg-white/10 backdrop-blur-none shadow px-2 rounded-md text-gray-100'
 					: ''}>/home</a
 			>
 			<a
 				href="/projects"
 				class={$page.url.pathname === '/projects'
-					? 'bg-white/10 backdrop-blur-md shadow px-2 rounded-md text-gray-100'
+					? 'bg-white/10 backdrop-blur-none shadow px-2 rounded-md text-gray-100'
 					: ''}>/projects</a
 			>
 			<a
 				href="/about"
 				class={$page.url.pathname === '/about'
-					? 'bg-white/10 backdrop-blur-md shadow px-2 rounded-md text-gray-100'
+					? 'bg-white/10 backdrop-blur-none shadow px-2 rounded-md text-gray-100'
 					: ''}>/about</a
 			>
 		</nav>
