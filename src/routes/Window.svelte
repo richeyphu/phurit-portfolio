@@ -120,8 +120,17 @@
 					/>
 				</svg>
 			</a>
-			<a href="https://creatorsgarten.org/ring" target="_blank" class="dot">
+			<a href="https://creatorsgarten.org/ring" title="Creatorsgarten" target="_blank" class="dot">
 				<img src={grtn_ring} alt="Creatorsgarten" class="ring-icon" />
+			</a>
+			<a href="https://webring.wonderful.software#phurit.de" title="วงแหวนเว็บ" target="_blank" class="dot">
+				<img
+					alt="วงแหวนเว็บ"
+					width="24"
+					height="24"
+					src="https://webring.wonderful.software/webring.black.svg"
+					class="p-1"
+				/>
 			</a>
 		</nav>
 	</div>
