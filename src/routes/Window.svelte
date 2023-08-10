@@ -112,7 +112,7 @@
 					/>
 				</svg>
 			</a>
-			<a href="mailto:phurit.de☆gmail.com%20[☆→@]">
+			<a href="mailto:hi☆phurit.de%20[☆→@]">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 					<title>Email</title>
 					<path
