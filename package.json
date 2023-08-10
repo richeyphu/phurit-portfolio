@@ -2,6 +2,7 @@
 	"name": "phurit-portfolio",
 	"version": "0.0.1",
 	"private": true,
+	"repository": "github:richeyphu/phurit-portfolio",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
