@@ -6,6 +6,11 @@ export interface Project {
 
 export const projects: Project[] = [
 	{
+		title: 'Coming soon',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+		link: 'https://youtu.be/dQw4w9WgXcQ'
+	},
+	{
 		title: 'noicesoup',
 		description: 'Selenium-based Google images scraper tool',
 		link: 'https://github.com/richeyphu/noicesoup'

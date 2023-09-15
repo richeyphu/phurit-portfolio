@@ -4,7 +4,7 @@
 	export let link: string = '#';
 </script>
 
-<div class="animate__animated animate__fadeInUp">
+<div class="h-auto max-w-full rounded-lg {$$restProps.class || ''}">
 	<a
 		href={link}
 		target={link.startsWith('#') ? '' : '_blank'}

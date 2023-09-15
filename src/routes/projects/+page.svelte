@@ -19,13 +19,19 @@
 			Discover some of the ideas that I've brought to life! ✨
 		</p>
 
-		<div
-			class="grid grid-cols-1 gap-4 mt-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pb-20 overflow-y-hidden"
-		>
-			{#each [...projects].reverse() as project}
-				<Card title={project.title} description={project.description} link={project.link} />
+		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8 pb-20 overflow-y-hidden">
+			{#each Array(Math.ceil(projects.length / 3)) as _, i}
+				<div class="grid gap-4">
+					{#each [...projects].reverse().slice(i * 3, i * 3 + 3) as project}
+						<Card
+							class="animate__animated animate__fadeInUp"
+							title={project.title}
+							description={project.description}
+							link={project.link}
+						/>
+					{/each}
+				</div>
 			{/each}
-			<Card title="Coming soon" />
 		</div>
 	</div>
 </section>
