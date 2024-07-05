@@ -7,7 +7,8 @@ export interface Project {
 export const projects: Project[] = [
 	{
 		title: 'Coming soon',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 		link: 'https://youtu.be/dQw4w9WgXcQ'
 	},
 	{
@@ -84,5 +85,10 @@ export const projects: Project[] = [
 		title: 'KV Counter',
 		description: 'Simple numeric counters API, using Cloudflare Workers and KV storage',
 		link: 'https://github.com/richeyphu/kv-counter'
+	},
+	{
+		title: 'wallpaper a day',
+		description: 'Favorite daily anime wallpaper site reimagined 🌟',
+		link: 'https://github.com/richeyphu/wallpaper-a-day'
 	}
 ];
