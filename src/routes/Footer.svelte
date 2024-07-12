@@ -3,8 +3,8 @@
 </script>
 
 <footer>
-	<div class="absolute bottom-0 w-full p-2 flex justify-center">
-		<a class="font-extralight text-sm text-gray-300" href="/"> © {year} phurit.de </a>
+	<div class="absolute bottom-0 flex w-full justify-center p-2">
+		<a class="text-sm font-extralight text-gray-300" href="/"> © {year} phurit.de </a>
 	</div>
 </footer>
 

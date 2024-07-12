@@ -3,8 +3,8 @@
 </script>
 
 <section class="flex h-screen">
-	<div class="m-auto animate__animated animate__fadeIn">
-		<h1 class="font-light text-4xl drop-shadow">
+	<div class="animate__animated animate__fadeIn m-auto">
+		<h1 class="text-4xl font-light drop-shadow">
 			{$page.status} | {$page.error?.message}
 		</h1>
 	</div>

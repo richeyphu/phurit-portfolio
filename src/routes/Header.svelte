@@ -4,29 +4,29 @@
 
 <header class="p-3">
 	<div class="flex justify-between">
-		<a href="/" class="w-10 brightness-50 invert hover:opacity-90 transition-all duration-200">
+		<a href="/" class="w-10 brightness-50 invert transition-all duration-200 hover:opacity-90">
 			<img src="/favicon.png" alt="phurit.de" />
 		</a>
 
 		<nav
-			class="flex flex-row gap-3 my-auto pr-2 text-gray-200 text-lg font-light drop-shadow [&>a:hover]:opacity-80 [&>a]:transition-all [&>a]:duration-200"
+			class="my-auto flex flex-row gap-3 pr-2 text-lg font-light text-gray-200 drop-shadow [&>a:hover]:opacity-80 [&>a]:transition-all [&>a]:duration-200"
 		>
 			<a
 				href="/"
 				class={$page.url.pathname === '/'
-					? 'bg-white/10 backdrop-blur-none shadow px-2 rounded-md text-gray-100'
+					? 'rounded-md bg-white/10 px-2 text-gray-100 shadow backdrop-blur-none'
 					: ''}>/home</a
 			>
 			<a
 				href="/projects"
 				class={$page.url.pathname === '/projects'
-					? 'bg-white/10 backdrop-blur-none shadow px-2 rounded-md text-gray-100'
+					? 'rounded-md bg-white/10 px-2 text-gray-100 shadow backdrop-blur-none'
 					: ''}>/projects</a
 			>
 			<a
 				href="/about"
 				class={$page.url.pathname === '/about'
-					? 'bg-white/10 backdrop-blur-none shadow px-2 rounded-md text-gray-100'
+					? 'rounded-md bg-white/10 px-2 text-gray-100 shadow backdrop-blur-none'
 					: ''}>/about</a
 			>
 		</nav>

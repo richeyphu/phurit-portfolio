@@ -13,13 +13,13 @@
 
 <section class="flex h-full px-5 pt-24">
 	<div class="mx-auto justify-center">
-		<h1 class="font-light text-4xl drop-shadow">Projects</h1>
+		<h1 class="text-4xl font-light drop-shadow">Projects</h1>
 
-		<p class="mt-8 text-xl font-light tracking-wide max-w-xs md:max-w-none">
+		<p class="mt-8 max-w-xs text-xl font-light tracking-wide md:max-w-none">
 			Discover some of the ideas that I've brought to life! ✨
 		</p>
 
-		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8 pb-20 overflow-y-hidden">
+		<div class="mt-8 grid grid-cols-1 gap-4 overflow-y-hidden pb-20 sm:grid-cols-2 md:grid-cols-3">
 			{#each Array(Math.ceil(projects.length / 3)) as _, i}
 				<div class="grid gap-4">
 					{#each [...projects].reverse().slice(i * 3, i * 3 + 3) as project}
