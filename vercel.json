@@ -1,0 +1,8 @@
+{
+	"rewrites": [
+		{
+			"source": "/api/counts/:path*",
+			"destination": "https://counter.phuritd.workers.dev/hit/phurit.de/:path*"
+		}
+	]
+}
