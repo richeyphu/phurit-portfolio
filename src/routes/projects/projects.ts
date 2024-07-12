@@ -92,3 +92,31 @@ export const projects: Project[] = [
 		link: 'https://github.com/richeyphu/wallpaper-a-day'
 	}
 ];
+
+export const featuredProjects: Project[] = [
+	{
+		title: 'Thai Regex Dict',
+		description: 'Thai Regex Dictionary | พจนานุกรมนิพจน์ปรกติ',
+		link: 'https://regexdict.phurit.de'
+	},
+	{
+		title: 'Loremity',
+		description: 'Ille infinitum volumen Lorem Ipsum',
+		link: 'https://loremity.phurit.de'
+	},
+	{
+		title: 'πery',
+		description: 'Fresh baked π from your browser!',
+		link: 'https://piery.phurit.de'
+	},
+	{
+		title: 'Get Motivated',
+		description: 'Stop hornie, be motivated: Chrome extension that will save you from 😭',
+		link: 'https://richeyphu.github.io/GetMotivated'
+	},
+	{
+		title: 'wallpaper a day',
+		description: 'Favorite daily anime wallpaper site reimagined 🌟',
+		link: 'https://wallpaper.phurit.de'
+	}
+];

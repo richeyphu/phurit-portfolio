@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { projects } from './projects';
+	import { projects, featuredProjects } from './projects';
 	import Card from './Card.svelte';
 </script>
 
@@ -19,6 +19,24 @@
 			Discover some of the ideas that I've brought to life! ✨
 		</p>
 
+		<!-- Featured Projects Section -->
+		{#if featuredProjects.length > 0}
+			<h2 class="mt-12 text-3xl font-light drop-shadow">Features</h2>
+			<div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+				{#each [...featuredProjects].reverse() as project}
+					<Card
+						class="animate__animated animate__fadeInUp"
+						title={project.title}
+						description={project.description}
+						link={project.link}
+					/>
+				{/each}
+			</div>
+		{/if}
+
+		<hr class="mx-auto my-10 h-1 w-48 rounded border-0 bg-gray-400" />
+
+		<!-- Other Projects Section -->
 		<div class="mt-8 grid grid-cols-1 gap-4 overflow-y-hidden pb-20 sm:grid-cols-2 md:grid-cols-3">
 			{#each Array(Math.ceil(projects.length / 3)) as _, i}
 				<div class="grid gap-4">
