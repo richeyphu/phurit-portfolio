@@ -1,16 +1,16 @@
 <script lang="ts">
-	function scrollToTop() {
+	const scrollToTop = () => {
 		window.scrollTo({
 			top: 0,
 			behavior: 'smooth'
 		});
-	}
+	};
 </script>
 
 <button
 	type="button"
 	on:click={scrollToTop}
-	class="me-2 inline-flex items-center rounded-lg border border-gray-700 bg-gray-800 bg-opacity-40 p-2.5 text-center text-sm font-medium shadow-lg backdrop-blur-lg hover:bg-opacity-30"
+	class="inline-flex items-center rounded-lg border border-gray-700 bg-gray-800 bg-opacity-40 p-2.5 text-center text-sm font-medium shadow-lg backdrop-blur-lg hover:bg-opacity-30"
 >
 	<svg
 		class="h-6 w-6"

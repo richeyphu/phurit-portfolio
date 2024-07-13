@@ -55,7 +55,7 @@
 		</div>
 		<!-- Other Projects Section ends -->
 
-		<div class="mb-20 mt-10 text-center">
+		<div class="mb-20 mt-10 text-center animate__animated animate__fadeInUp">
 			<ScrollToTopButton />
 		</div>
 	</div>
