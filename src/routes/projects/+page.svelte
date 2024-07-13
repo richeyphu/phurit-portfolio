@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { projects, featuredProjects } from './projects';
 	import Card from './Card.svelte';
+	import ScrollToTopButton from './ScrollToTopButton.svelte';
 </script>
 
 <svelte:head>
@@ -38,7 +39,7 @@
 		<hr class="mx-auto my-10 h-1 w-48 rounded border-0 bg-gray-400" />
 
 		<!-- Other Projects Section starts -->
-		<div class="mt-8 grid grid-cols-1 gap-4 overflow-y-hidden pb-20 sm:grid-cols-2 md:grid-cols-3">
+		<div class="mt-8 grid grid-cols-1 gap-4 overflow-y-hidden sm:grid-cols-2 md:grid-cols-3">
 			{#each Array(Math.ceil(projects.length / 3)) as _, i}
 				<div class="grid gap-4">
 					{#each [...projects].reverse().slice(i * 3, i * 3 + 3) as project}
@@ -53,5 +54,9 @@
 			{/each}
 		</div>
 		<!-- Other Projects Section ends -->
+
+		<div class="mb-20 mt-10 text-center">
+			<ScrollToTopButton />
+		</div>
 	</div>
 </section>
