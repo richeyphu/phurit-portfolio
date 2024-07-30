@@ -90,6 +90,11 @@ export const projects: Project[] = [
 		title: 'wallpaper a day',
 		description: 'Favorite daily anime wallpaper site reimagined 🌟',
 		link: 'https://github.com/richeyphu/wallpaper-a-day'
+	},
+	{
+		title: 'ReLEx Trainer',
+		description: 'ReLEx SMILE Simulator: Keep your eye still during LASIK Surgery',
+		link: 'https://github.com/richeyphu/relex-trainer'
 	}
 ];
 
