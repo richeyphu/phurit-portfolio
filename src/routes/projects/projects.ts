@@ -123,5 +123,10 @@ export const featuredProjects: Project[] = [
 		title: 'wallpaper a day',
 		description: 'Favorite daily anime wallpaper site reimagined 🌟',
 		link: 'https://wallpaper.phurit.de'
+	},
+	{
+		title: 'ReLEx Trainer',
+		description: 'ReLEx SMILE Simulator: Keep your eye still during LASIK Surgery',
+		link: 'https://relex.phurit.de'
 	}
 ];
