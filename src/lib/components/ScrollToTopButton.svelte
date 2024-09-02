@@ -10,7 +10,7 @@
 <button
 	type="button"
 	on:click={scrollToTop}
-	class="inline-flex items-center rounded-lg border border-gray-700 bg-gray-800 bg-opacity-40 p-2.5 text-center text-sm font-medium shadow-lg backdrop-blur-lg hover:bg-opacity-30 transition-colors"
+	class="inline-flex items-center rounded-lg border border-gray-700 bg-gray-800 bg-opacity-40 p-2.5 text-center text-sm font-medium shadow-lg backdrop-blur-lg transition-colors hover:bg-opacity-30"
 >
 	<svg
 		class="h-6 w-6"
