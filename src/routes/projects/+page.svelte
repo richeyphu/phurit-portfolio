@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { projects, featuredProjects } from './projects';
-	import Card from './Card.svelte';
-	import ScrollToTopButton from './ScrollToTopButton.svelte';
+	import { Card, ScrollToTopButton } from '$lib/components';
 </script>
 
 <svelte:head>
@@ -55,7 +54,7 @@
 		</div>
 		<!-- Other Projects Section ends -->
 
-		<div class="mb-20 mt-10 text-center animate__animated animate__fadeInUp">
+		<div class="animate__animated animate__fadeInUp mb-20 mt-10 text-center">
 			<ScrollToTopButton />
 		</div>
 	</div>

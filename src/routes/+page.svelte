@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import Window from './Window.svelte';
+	import { Window } from '$lib/components';
 
 	onMount(() => {
 		// Fetch hit counter
 		fetch('/api/counts/visits')
 			.then((res) => res.json())
-			.then((data) => console.log({...data}))
+			.then((data) => console.log({ ...data }))
 			.catch((err) => console.log(err));
 	});
 </script>
