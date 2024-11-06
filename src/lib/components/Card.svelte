@@ -1,10 +1,20 @@
 <script lang="ts">
-	export let title: string = 'Lorem ipsum dolor sit amet';
-	export let description: string = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
-	export let link: string = '#';
+	interface Props {
+		title?: string;
+		description?: string;
+		link?: string;
+		[key: string]: unknown;
+	}
+
+	let {
+		title = 'Lorem ipsum dolor sit amet',
+		description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+		link = '#',
+		...rest
+	}: Props = $props();
 </script>
 
-<div class="h-auto max-w-full rounded-lg {$$restProps.class || ''}">
+<div class="h-auto max-w-full rounded-lg {rest.class || ''}">
 	<a
 		href={link}
 		target={link.startsWith('#') ? '' : '_blank'}
