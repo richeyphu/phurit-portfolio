@@ -55,9 +55,9 @@
 
 <div class="card glass animate__animated animate__zoomInUp">
 	<div class="window-bar [&>*:hover]:opacity-80 [&>*]:transition-all">
-		<div class="window-button b-red" />
-		<div class="window-button b-yellow" />
-		<div class="window-button b-green" />
+		<div class="window-button b-red"></div>
+		<div class="window-button b-yellow"></div>
+		<div class="window-button b-green"></div>
 	</div>
 	<div class="window-content">
 		<h1 class="title">
