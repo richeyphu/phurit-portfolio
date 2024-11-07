@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import grtn_ring from '$lib/images/ring-solid.svg';
+	import { onMount } from 'svelte';
 
 	onMount(() => {
 		const card = document.querySelector('.card') as HTMLDivElement;

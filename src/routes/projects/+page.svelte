@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { projects, featuredProjects } from './projects';
 	import { Card, ScrollToTopButton } from '$lib/components';
+	import { featuredProjects, projects } from './projects';
 </script>
 
 <svelte:head>

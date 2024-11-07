@@ -1,8 +1,8 @@
 <script lang="ts">
-	import '../app.css';
-	import { Header, Footer } from '$lib/components';
 	import { dev } from '$app/environment';
+	import { Footer, Header } from '$lib/components';
 	import { inject } from '@vercel/analytics';
+	import '../app.css';
 
 	interface Props {
 		children?: import('svelte').Snippet;

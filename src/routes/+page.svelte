@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import { Window } from '$lib/components';
+	import { onMount } from 'svelte';
 
 	onMount(() => {
 		// Fetch hit counter
