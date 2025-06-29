@@ -18,7 +18,7 @@
 	<a
 		href={link}
 		target={link.startsWith('#') ? '' : '_blank'}
-		class="block h-full max-w-sm rounded-lg border border-gray-700 bg-gray-800 bg-opacity-40 p-6 shadow-lg backdrop-blur-lg transition-colors hover:bg-opacity-30"
+		class="block h-full max-w-sm rounded-lg border border-gray-700 bg-gray-800/40 p-6 shadow-lg backdrop-blur-lg transition-colors hover:bg-gray-800/30"
 	>
 		<h3 class="mb-2 text-2xl font-medium tracking-tight text-gray-200">
 			{title}

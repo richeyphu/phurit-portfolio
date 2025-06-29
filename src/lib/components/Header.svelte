@@ -9,24 +9,24 @@
 		</a>
 
 		<nav
-			class="my-auto flex flex-row gap-3 pr-2 text-lg font-light text-gray-200 drop-shadow [&>a:hover]:opacity-80 [&>a]:transition-all [&>a]:duration-200"
+			class="my-auto flex flex-row gap-3 pr-2 text-lg font-light text-gray-200 drop-shadow-sm [&>a:hover]:opacity-80 [&>a]:transition-all [&>a]:duration-200"
 		>
 			<a
 				href="/"
 				class={$page.url.pathname === '/'
-					? 'rounded-md bg-white/10 px-2 text-gray-100 shadow backdrop-blur-none'
+					? 'rounded-md bg-white/10 px-2 text-gray-100 shadow-sm backdrop-blur-none'
 					: ''}>/home</a
 			>
 			<a
 				href="/projects"
 				class={$page.url.pathname === '/projects'
-					? 'rounded-md bg-white/10 px-2 text-gray-100 shadow backdrop-blur-none'
+					? 'rounded-md bg-white/10 px-2 text-gray-100 shadow-sm backdrop-blur-none'
 					: ''}>/projects</a
 			>
 			<a
 				href="/about"
 				class={$page.url.pathname === '/about'
-					? 'rounded-md bg-white/10 px-2 text-gray-100 shadow backdrop-blur-none'
+					? 'rounded-md bg-white/10 px-2 text-gray-100 shadow-sm backdrop-blur-none'
 					: ''}>/about</a
 			>
 		</nav>

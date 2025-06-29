@@ -23,8 +23,8 @@
 
 <section class="flex h-screen">
 	<div class="animate__animated animate__fadeIn m-auto text-center">
-		<h1 class="mb-3 text-2xl font-light drop-shadow md:text-4xl">Hi, I'm Phurit 👋</h1>
-		<h1 class="text-2xl font-light drop-shadow md:text-4xl">
+		<h1 class="mb-3 text-2xl font-light drop-shadow-sm md:text-4xl">Hi, I'm Phurit 👋</h1>
+		<h1 class="text-2xl font-light drop-shadow-sm md:text-4xl">
 			<Typewriter
 				mode="loopOnce"
 				wordInterval={1500}
