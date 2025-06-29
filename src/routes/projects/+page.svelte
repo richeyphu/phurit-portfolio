@@ -13,7 +13,7 @@
 
 <section class="flex h-full px-5 pt-24">
 	<div class="mx-auto justify-center">
-		<h1 class="text-4xl font-light drop-shadow-sm">Projects</h1>
+		<h1 class="text-4xl font-light drop-shadow">Projects</h1>
 
 		<p class="mt-8 max-w-xs text-xl font-light tracking-wide md:max-w-none">
 			Discover some of the ideas that I've brought to life! ✨
@@ -21,7 +21,7 @@
 
 		<!-- Featured Projects Section starts -->
 		{#if featuredProjects.length > 0}
-			<h2 class="mt-12 text-3xl font-light drop-shadow-sm">Featured</h2>
+			<h2 class="mt-12 text-3xl font-light drop-shadow">Featured</h2>
 			<div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
 				{#each [...featuredProjects].reverse() as project}
 					<Card
@@ -35,7 +35,7 @@
 		{/if}
 		<!-- Featured Projects Section ends -->
 
-		<hr class="mx-auto my-10 h-1 w-48 rounded-sm border-0 bg-gray-400" />
+		<hr class="mx-auto my-10 h-1 w-48 rounded border-0 bg-gray-400" />
 
 		<!-- Other Projects Section starts -->
 		<div class="mt-8 grid grid-cols-1 gap-4 overflow-y-hidden sm:grid-cols-2 md:grid-cols-3">
