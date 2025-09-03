@@ -219,6 +219,7 @@
 		width: 0.75rem;
 		height: 0.75rem;
 		border-radius: 888px;
+		cursor: pointer;
 	}
 	.b-red {
 		background-color: rgba(239, 68, 68, 0.9);
